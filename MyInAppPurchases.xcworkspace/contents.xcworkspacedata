@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MyInAppPurchases/Configuration.storekit">
+   </FileRef>
+   <FileRef
       location = "group:MyInAppPurchases.xcodeproj">
    </FileRef>
    <FileRef

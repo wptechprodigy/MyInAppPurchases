@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 		04DA347D2589514600F4E881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DA34802589514600F4E881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DA34822589514600F4E881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DA348C258954EA00F4E881 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		09D80D050F43EABE57E4308C /* Pods-MyInAppPurchases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInAppPurchases.debug.xcconfig"; path = "Target Support Files/Pods-MyInAppPurchases/Pods-MyInAppPurchases.debug.xcconfig"; sourceTree = "<group>"; };
 		4215A39AB2ED8301FBC2A4B6 /* Pods_MyInAppPurchases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInAppPurchases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC04F3CDE1BB062E06AAAD30 /* Pods-MyInAppPurchases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInAppPurchases.release.xcconfig"; path = "Target Support Files/Pods-MyInAppPurchases/Pods-MyInAppPurchases.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				04DA347D2589514600F4E881 /* Assets.xcassets */,
 				04DA347F2589514600F4E881 /* LaunchScreen.storyboard */,
 				04DA34822589514600F4E881 /* Info.plist */,
+				04DA348C258954EA00F4E881 /* Configuration.storekit */,
 			);
 			path = MyInAppPurchases;
 			sourceTree = "<group>";
@@ -80,7 +82,6 @@
 				09D80D050F43EABE57E4308C /* Pods-MyInAppPurchases.debug.xcconfig */,
 				EC04F3CDE1BB062E06AAAD30 /* Pods-MyInAppPurchases.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

@@ -5,6 +5,7 @@
 //  Created by waheedCodes on 15/12/2020.
 //
 
+import StoreFrontKit
 import UIKit
 
 @main
@@ -13,7 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Store setup
+        SFKManager.shared.configure(with: StoreFrontKitConfiguration(products: [
+            .nonConsumable(productID: "com.example.premium", viewModel: nil),
+            .nonConsumable(productID: "com.example.gold", viewModel: nil)
+        ]))
+        
         return true
     }
 

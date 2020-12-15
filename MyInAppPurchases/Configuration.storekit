@@ -6,9 +6,9 @@
       "internalID" : "FAF644B4",
       "localizations" : [
         {
-          "description" : "Unlock all app features and be cool forever!",
+          "description" : "Upgrade to Premium. Enjoy all app features!",
           "displayName" : "Premium Upgrade",
-          "locale" : "en_GB"
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.example.premium",

@@ -1,0 +1,16 @@
+PODS:
+  - StoreFrontKit (1.0.0)
+
+DEPENDENCIES:
+  - StoreFrontKit
+
+SPEC REPOS:
+  trunk:
+    - StoreFrontKit
+
+SPEC CHECKSUMS:
+  StoreFrontKit: dc2b230982e069340eb9551adc170c805c66923c
+
+PODFILE CHECKSUM: a049e860a53251992241dd3ee2cefeeb23175875
+
+COCOAPODS: 1.10.0
